@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dylan Gallagher</title>
+  <meta name="description" content="Personal website of Dylan Gallagher">
+  <link rel="icon" href="data:,">
+  <style>
+    :root {
+      --fg: #1a1a1a;
+      --muted: #6b6b6b;
+      --bg: #fdfdfc;
+      --link: #1a1a1a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #e6e6e6;
+        --muted: #8c8c8c;
+        --bg: #111111;
+        --link: #e6e6e6;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { font-size: 17px; }
+    body {
+      margin: 0;
+      padding: 18vh 1.5rem 4rem;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 34rem; margin: 0 auto; }
+    h1 { font-size: 1.15rem; font-weight: 600; margin: 0 0 1.25rem; }
+    p { margin: 0 0 1rem; }
+    .muted { color: var(--muted); }
+    a {
+      color: var(--link);
+      text-decoration: underline;
+      text-decoration-color: var(--muted);
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+    }
+    a:hover { text-decoration-color: var(--fg); }
+    ul { list-style: none; padding: 0; margin: 2rem 0 0; display: flex; gap: 1.25rem; flex-wrap: wrap; }
+    footer { margin-top: 4rem; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Dylan Gallagher</h1>
+    <p>Hi, I'm Dylan. I build things.</p>
+    <p>Currently working on <a href="https://trycoredepth.com">CoreDepth</a>.</p>
+    <ul>
+      <li><a href="mailto:dylan@frunteer.com">Email</a></li>
+      <li><a href="https://github.com/Dylan-Gallagher">GitHub</a></li>
+      <li><a href="https://x.com/_dylangallagher">X</a></li>
+      <li><a href="https://www.linkedin.com/in/dylan-gallagher000/">LinkedIn</a></li>
+    </ul>
+    <footer class="muted">&copy; 2026</footer>
+  </main>
+</body>
+</html>
